@@ -12,6 +12,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], (Controller) => {
       return this.getOwnerComponent().getModel("i18n").getResourceBundle();
     },
     onNavBack() {
+      debugger;
       this.getRouter().navTo("Main", {}, true);
     },
   });
